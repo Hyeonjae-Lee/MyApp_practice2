@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BmiCalculator2</string>
+    <string name="result">result!</string>
+</resources>
