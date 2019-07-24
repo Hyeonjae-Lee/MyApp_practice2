@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FoodDetails">
+
+    <ImageView
+            android:layout_width="258dp"
+            android:layout_height="302dp" app:srcCompat="@drawable/espresso"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/ivFoodImage" app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintVertical_bias="0.23"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/tvDetails" app:layout_constraintTop_toBottomOf="@+id/tvName"
+            android:layout_marginTop="28dp" android:textSize="24sp" app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/ivFoodImage" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="24sp"
+            android:textColor="@android:color/holo_blue_dark" app:layout_constraintHorizontal_bias="0.498"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

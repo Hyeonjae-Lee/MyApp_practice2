@@ -181,4 +181,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private fun removeLocationListner(){
         fusedLocationProviderClient.removeLocationUpdates(locationCallback)
     }
+
 }
